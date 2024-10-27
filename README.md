@@ -75,5 +75,5 @@ UTSA Connect is on a continuous improvement path, with features evolving to meet
 ---
 
 **Project Status**: Active development  
-**GitHub Repository**: [github.com/adii-tech/utsa-connect](https://github.com/adii-tech/utsa-connect)
+**GitHub Repository**: https://github.com/anudeepadi/UTSA-Social
 
