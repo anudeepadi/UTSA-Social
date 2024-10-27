@@ -1,10 +1,11 @@
+import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'UTSA Connect',
   description: 'Your Campus, Your Community, All Connected',
 }
@@ -16,11 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-gray-50`}>
         <Navigation />
-        <main className="min-h-screen pt-16 bg-gray-50">
-          {children}
-        </main>
+        {children}
       </body>
     </html>
   )
