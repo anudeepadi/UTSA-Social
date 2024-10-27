@@ -3,8 +3,8 @@
 import { posts, stories, trendingTopics, upcomingEvents, notifications } from '@/lib/data';
 import Link from 'next/link';
 import { 
-  TrendingUp, MessageCircle, Heart, Bookmark, Hash, Users, Calendar, 
-  ChevronRight, Image, LinkIcon, Smile, Share2, MoreHorizontal, Bell, Plus
+  TrendingUp, MessageCircle, Bookmark, Hash, Users, Calendar, 
+  ChevronRight, Image, LinkIcon, Smile, Bell, Plus
 } from 'lucide-react';
 import { PostCard } from './PostCard';
 
@@ -43,7 +43,7 @@ export default function HomePage() {
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-orange-600" />
                   <div>
                     <h3 className="font-bold text-gray-900">John Doe</h3>
-                    <p className="text-sm text-gray-600">Computer Science '25</p>
+                    <p className="text-sm text-gray-600">Computer Science 25</p>
                   </div>
                 </div>
               </div>
